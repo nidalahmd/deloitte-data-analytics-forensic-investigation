@@ -50,13 +50,10 @@ The extracted results are available in [Task 5 Equality Table.csv](./Task%205%20
 
 The dashboard screenshot shows the two bar-chart views for unhealthy devices by factory and device type. The Tableau status bar shows 9 marks and a selected `SUM(Unhealthy)` value of 480.
 
-> This is a screenshot preview. The editable Tableau workbook (`.twb` or `.twbx`) was not included in the supplied files.
 
 ## Data Files
 
-- [daikibo-telemetry-sample.json](./daikibo-telemetry-sample.json) — a one-record sample showing the structure of the telemetry dataset. The full source JSON contains 160,704 records and is not uploaded in this repository.
 - [Task 5 Equality Table.csv](./Task%205%20Equality%20Table.csv) — extracted equality-score records and classifications from the supplied Excel workbook.
-- The certificate details above are transcribed from the supplied certificate; the original PDF is not uploaded here.
 
 ## Skills Demonstrated
 
