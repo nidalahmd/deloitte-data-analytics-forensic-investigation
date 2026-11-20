@@ -1,0 +1,18 @@
+[
+  {
+    "deviceID": "19ff3161-2b3a-40a3-8604-bdc6532d0dab",
+    "deviceType": "CNC",
+    "timestamp": 1619816400000,
+    "location": {
+      "country": "japan",
+      "city": "tokyo",
+      "area": "keiyō-industrial-zone",
+      "factory": "daikibo-factory-meiyo",
+      "section": "section-1"
+    },
+    "data": {
+      "status": "healthy",
+      "temperature": 27
+    }
+  }
+]
