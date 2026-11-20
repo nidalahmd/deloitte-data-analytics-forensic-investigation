@@ -35,33 +35,28 @@ The dashboard contains:
 
 Analyzed equality scores across factory job roles using the supplied Excel workbook.
 
-The workbook contains:
-- Factory
-- Job Role
-- Equality Score
-- Equality class
-
 The classification formula uses `IFS` and `ABS` to classify the absolute equality score:
 - **Fair:** absolute score is 10 or below
 - **Unfair:** absolute score is above 10 and up to 20
 - **Highly Discriminative:** absolute score is above 20
 
+The extracted results are available in [Task 5 Equality Table.csv](./Task%205%20Equality%20Table.csv).
+
 ## Dashboard / Visual Preview
 
 ### Tableau Dashboard
 
-![Deloitte Tableau Dashboard](deloitte-tableau-dashboard.jpg)
+![Deloitte Tableau Dashboard](deloitte-tableau-dashboard.svg)
 
 The dashboard screenshot shows the two bar-chart views for unhealthy devices by factory and device type. The Tableau status bar shows 9 marks and a selected `SUM(Unhealthy)` value of 480.
 
 > This is a screenshot preview. The editable Tableau workbook (`.twb` or `.twbx`) was not included in the supplied files.
 
-## Dataset and Supporting Files
+## Data Files
 
-- `daikibo-telemetry-data.zip` — compressed Daikibo industrial telemetry JSON dataset (160,704 records). Extract the ZIP to access the JSON file.
-- `Task 5 Equality Table.xlsx` — equality-score classification workbook.
-- `Deloitte-Data-Analytics-Job-Simulation-Certificate.pdf` — certificate of completion.
-- `deloitte-tableau-dashboard.jpg` — Tableau dashboard screenshot displayed above.
+- [daikibo-telemetry-sample.json](./daikibo-telemetry-sample.json) — a one-record sample showing the structure of the telemetry dataset. The full source JSON contains 160,704 records and is not uploaded in this repository.
+- [Task 5 Equality Table.csv](./Task%205%20Equality%20Table.csv) — extracted equality-score records and classifications from the supplied Excel workbook.
+- The certificate details above are transcribed from the supplied certificate; the original PDF is not uploaded here.
 
 ## Skills Demonstrated
 
@@ -83,4 +78,4 @@ The dashboard screenshot shows the two bar-chart views for unhealthy devices by 
 
 ## Note
 
-This repository documents a learning experience completed through a job simulation. It is not a Deloitte production project or client engagement. The files are included as supporting material for the simulation tasks.
+This repository documents a learning experience completed through a job simulation. It is not a Deloitte production project or client engagement. The included screenshot and extracted data are supporting material for the simulation tasks.
