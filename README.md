@@ -1,10 +1,10 @@
-# Deloitte Data Analytics Job Simulation
+# Deloitte Forensic Technology & Data Analytics
 
 ## Overview
 
 This repository documents my completion of the **Deloitte Data Analytics Job Simulation** through **Forage**.
 
-The simulation involved practical tasks in data analysis and forensic technology, using industrial telemetry data and employee equality-score data.
+The simulation covered two areas: industrial machine telemetry analysis using Tableau, and a forensic technology task involving workplace gender pay equality data using Microsoft Excel. The forensic task focused on classifying equality scores to help identify potential pay disparities.
 
 ## Certificate
 
@@ -31,9 +31,9 @@ The dashboard contains:
 - Unhealthy devices by factory
 - Unhealthy devices by device type
 
-### 2. Equality Score Classification using Microsoft Excel
+### 2. Forensic Technology — Workplace Pay Equality Analysis
 
-Analyzed equality scores across factory job roles using the supplied Excel workbook.
+Analyzed workplace equality scores across factory locations and job roles. This task was part of the simulation's Forensic Technology work, which examined potential gender-related pay disparities.
 
 The classification formula uses `IFS` and `ABS` to classify the absolute equality score:
 - **Fair:** absolute score is 10 or below
@@ -71,7 +71,7 @@ The dashboard screenshot shows the two bar-chart views for unhealthy devices by 
 - Comparing unhealthy device counts across factories and device types.
 - Using Tableau to communicate data through visualizations.
 - Applying Excel logic to classify equality scores.
-- Interpreting data in the context of forensic analysis.
+- Applying forensic technology concepts to workplace pay-equality data.
 
 ## Note
 
